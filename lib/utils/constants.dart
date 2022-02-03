@@ -52,7 +52,7 @@ void stopLoader(BuildContext context) {
 }
 
 printLog(var msg) {
-  debugPrint(msg);
+  print(msg);
 }
 
 String strErrorRequiredField = "'Required field(s) can\'t be empty'";
